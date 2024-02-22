@@ -1,13 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
 body {
+  background-color: #f5f5f5 !important;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.btn {
+  background-color: #2ba0df !important;
+  border-color: #2ba0df !important;
+  padding: 0.8rem !important;
+  border-radius: 1.5rem !important;
+  font-size: 1vw !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #2c466d !important;
+  font-family: "Fredoka", sans-serif;
+  padding: 0.5rem;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+h2 {
+  font-size: 2.5vw;
+}
+
+/* Accordion */
+
+.accordion-button:not(.collapsed) {
+  background-color: #47bb5e !important;
+  border-color: #47bb5e !important;
+  border: none !important;
+  border-radius: 1rem !important;
+  border: 0px !important;
+  color: #ffffff !important;
+}
+
+.accordion-button {
+  border-radius: 1rem !important;
+  border: 0px !important;
+}
+
+
+
+/* Nav */
+
+.navbar {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  border-bottom: 5px solid #b5c6d2;
+}
+
+.navbar-brand {
+  color: #47bb5e !important;
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #2ba0df !important;
+  font-weight: bold !important;
+}
+
+.navContainer {
+  max-width: 100% !important;
+}
+
+/* Divs */
+
+.welcomeDiv {
+  background-color: #bfd0dc;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  background-image: url("./images/divbg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.lessonsDiv {
+  background-image: linear-gradient(180deg, #bfd0dc, #f5f5f5);
+  border-width: 10rem;
+  padding-top: 1rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.lessonsDiv h4 {
+  font-size: 2vw;
+}
+
+.lessonsDiv p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.lessonsDiv a {
+  color: #2c466d;
+  text-decoration: none;
+}
+
+.science,
+.languageArts,
+.math {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  font-size: 1vw;
+}
+
+.science {
+  background-color: #2ba0df;
+}
+
+.languageArts {
+  background-color: #f5679b;
+}
+
+.math {
+  background-color: #47bb5e;
+}
+
+/* Carousel */
+
+.carousel-caption {
+  right: 5% !important;
+  left: 5% !important;
+  padding-bottom: 0 !important;
+}
+
+.carousel-caption h3 {
+  font-size: 1.5vw;
+  color: #fff !important;
+  padding: 0;
+}
+
+.carousel-caption p {
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 0.8vw;
+  border-radius: 1rem;
+  margin: 0;
+}
+
+.carousel-caption a {
+  color: #fff !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.carousel,
+.carousel-item.active {
+  width: 100%;
+}
+
+.carousel img {
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+
+.carousel-indicators {
+  margin-bottom: 0 !important;
+}
+
